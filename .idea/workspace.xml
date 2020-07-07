@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="" />
+    <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/settings/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,23 +28,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -49,7 +43,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dICqsHeUecP4sXwSU9RTLjNTvJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,25 +58,26 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python_project\django\blog\Myblog\user\templates\user" />
-      <recent name="E:\Python_project\django\blog\Myblog\user\templates" />
-      <recent name="E:\Python_project\django\blog" />
-      <recent name="E:\Python_project\django\blog\Myblog\user" />
-      <recent name="E:\Python_project\django\blog\Myblog\blog\static\blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Python_project\django\blog\Myblog\user\migrations" />
       <recent name="E:\Python_project\django\blog\Myblog\user" />
       <recent name="E:\Python_project\django\blog\Myblog\comment\templatetags" />
       <recent name="E:\Python_project\django\blog\Myblog\static" />
       <recent name="E:\Python_project\django\blog\Myblog\static\bootstrap-3.3.7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python_project\django\blog\Myblog\Myblog\settings" />
+      <recent name="E:\Python_project\django\blog\Myblog\user\templates\user" />
+      <recent name="E:\Python_project\django\blog\Myblog\user\templates" />
+      <recent name="E:\Python_project\django\blog" />
+      <recent name="E:\Python_project\django\blog\Myblog\user" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,6 +140,11 @@
       <workItem from="1593569042007" duration="7270000" />
       <workItem from="1593688488527" duration="7530000" />
       <workItem from="1593752115149" duration="5756000" />
+      <workItem from="1593782569487" duration="2126000" />
+      <workItem from="1593867105791" duration="308000" />
+      <workItem from="1593930509480" duration="619000" />
+      <workItem from="1594040577394" duration="3585000" />
+      <workItem from="1594124531926" duration="3318000" />
     </task>
     <servers />
   </component>
@@ -154,10 +160,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592103659672" />
-    <state x="821" y="176" key="FileChooserDialogImpl" timestamp="1593318307619">
+    <state x="821" y="176" key="FileChooserDialogImpl" timestamp="1593867186861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="821" y="176" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593318307619" />
+    <state x="821" y="176" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593867186861" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1592638704666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -166,10 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="63" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592104417021" />
-    <state x="460" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1593752358610">
+    <state x="460" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1594124837767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="460" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593752358610" />
+    <state x="460" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594124837767" />
     <state x="440" y="2" width="755" height="822" key="find.popup" timestamp="1593318694622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
