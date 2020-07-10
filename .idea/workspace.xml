@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,19 +75,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python_project\django\blog\Myblog\user\migrations" />
-      <recent name="E:\Python_project\django\blog\Myblog\user" />
-      <recent name="E:\Python_project\django\blog\Myblog\comment\templatetags" />
-      <recent name="E:\Python_project\django\blog\Myblog\static" />
-      <recent name="E:\Python_project\django\blog\Myblog\static\bootstrap-3.3.7" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python_project\django\blog\Myblog\Myblog\settings" />
       <recent name="E:\Python_project\django\blog\Myblog\user\templates\user" />
       <recent name="E:\Python_project\django\blog\Myblog\user\templates" />
       <recent name="E:\Python_project\django\blog" />
       <recent name="E:\Python_project\django\blog\Myblog\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_project\django\blog\Myblog" />
+      <recent name="E:\Python_project\django\blog\Myblog\user\migrations" />
+      <recent name="E:\Python_project\django\blog\Myblog\user" />
+      <recent name="E:\Python_project\django\blog\Myblog\comment\templatetags" />
+      <recent name="E:\Python_project\django\blog\Myblog\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,7 +156,9 @@
       <workItem from="1594040577394" duration="3585000" />
       <workItem from="1594124531926" duration="6431000" />
       <workItem from="1594171336319" duration="4827000" />
-      <workItem from="1594210325886" duration="1301000" />
+      <workItem from="1594210325886" duration="2062000" />
+      <workItem from="1594264259343" duration="2721000" />
+      <workItem from="1594380930137" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1594129456472</created>
@@ -198,10 +202,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="63" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592104417021" />
-    <state x="460" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1594210353472">
+    <state x="460" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1594381037317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="460" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594210353472" />
+    <state x="460" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594381037317" />
     <state x="440" y="2" width="755" height="822" key="find.popup" timestamp="1593318694622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
