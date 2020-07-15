@@ -6,7 +6,7 @@ from django.db.models import Sum
 from django.core.cache import cache
 
 from read_statistics.utils import get_seven_days_read_data,get_tody_hot_data,get_yesterday_hot_data
-from blog.models import  Blog
+from blog.models import Blog
 
 
 def get_7_days_hot_blogs():
