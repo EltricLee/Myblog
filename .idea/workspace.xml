@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user/templatetags/user_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/settings/development.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,24 +78,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/templatetags" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_project\django\blog\Myblog\user\templatetags" />
+      <recent name="E:\Python_project\django\blog\Myblog" />
+      <recent name="E:\Python_project\django\blog\Myblog\user\migrations" />
+      <recent name="E:\Python_project\django\blog\Myblog\user" />
+      <recent name="E:\Python_project\django\blog\Myblog\comment\templatetags" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python_project\django\blog\Myblog\Myblog\settings" />
       <recent name="E:\Python_project\django\blog\Myblog\user\templates\user" />
       <recent name="E:\Python_project\django\blog\Myblog\user\templates" />
       <recent name="E:\Python_project\django\blog" />
       <recent name="E:\Python_project\django\blog\Myblog\user" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python_project\django\blog\Myblog" />
-      <recent name="E:\Python_project\django\blog\Myblog\user\migrations" />
-      <recent name="E:\Python_project\django\blog\Myblog\user" />
-      <recent name="E:\Python_project\django\blog\Myblog\comment\templatetags" />
-      <recent name="E:\Python_project\django\blog\Myblog\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +182,7 @@
       <workItem from="1594901819746" duration="644000" />
       <workItem from="1594953080880" duration="670000" />
       <workItem from="1595126264010" duration="9666000" />
-      <workItem from="1595334824469" duration="912000" />
+      <workItem from="1595334824469" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1594129456472</created>
