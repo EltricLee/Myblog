@@ -3,7 +3,7 @@
 {% load user_tags %}
 
 {% block title%}
-    我的网站|登录
+    我的网站|绑定用户
 {% endblock %}
 
 
@@ -14,38 +14,34 @@
         <div class="row">
             <div class="col-xs-4 col-xs-offset-4">
                 {% if not user.is_authenticated %}
+                    <div class="qq-info">
+                        <img src="{{ avatar }}" alt="">
+                        <p>你好，{{ nickname }}</p>
+                    </div>
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                      <h3 class="panel-title">登录</h3>
+                      <h3 class="panel-title">绑定用户</h3>
                   </div>
                   <div class="panel-body">
                      <form action="" method="POST">
                         {% csrf_token %}
-                        {% for field in login_form %}
+                        {% for field in bind_qq_form %}
                             <label for="{{ field.id_for_label }}">{{ field.label }}</label>
-                            {% if field.id_for_label == 'id_password' %}
-                                (<a href="{% url 'forgot_password' %}"  tabindex="-1">忘记密码?</a>)
-                            {% endif %}
                             {{ field }}
                             <p class="text-danger">
                                 {{ field.errors.as_text }}
                             </p>
                          {% endfor %}
-                            <span id="tip" class="text-danger">{{ login_form.non_field_errors }}</span>
+                            <span id="tip" class="text-danger">{{ bind_qq_form.non_field_errors }}</span>
                             <div class="clearfix"></div>
-                            <a class="qq-login" href="{% get_login_qq_url %}">
-                                <img src="{% static 'user/qq.png' %}" alt="">
-                                使用QQ账号登录
-                            </a>
-                         <input type="submit" value="登录" class="btn btn-primary pull-right">
+                         <a href="{% url 'forgot_password' %}" class="pull-left">忘记密码？</a>
+                         <input type="submit" value="绑定" class="btn btn-primary pull-right">
                     </form>
                   </div>
                 </div>
-                 {% if request.GET.from %}
-                     <a class="go-register" href="{% url 'register' %}?from={{ request.GET.from }}">前往注册 &gt;&gt;</a>
-                 {% else %}
-                     <a class="go-register" href="{% url 'register' %}?from={{ request.get_full_path }}">前往注册 &gt;&gt;</a>
-                 {% endif %}
+                 <a style="margin: 0 auto;text-align: center;display: block" href="{% url 'create_user_by_qq' %}?nickname={{ nickname }}">
+                    没有账号？直接登录并创建账号 &gt;&gt;
+                 </a>
 
             {% else %}
                 <span>已登录，跳转到首页...</span>

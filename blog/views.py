@@ -14,7 +14,7 @@ def get_blog_list_common_data(request,blogs_all_list):
 	page_of_blogs = paginator.get_page(page_num)
 	current_page_num = page_of_blogs.number
 	#获取当前页码的范围
-	page_range = list(range(max(current_page_num -2 ,1), current_page_num)) +\
+	page_range = list(range(max(current_page_num -2 ,1), current_page_num)) + \
 				 list(range(current_page_num ,min(current_page_num + 2 ,paginator.num_pages)+ 1))
 	# 加上省略标记
 	if page_range[0] -1 >= 2:
