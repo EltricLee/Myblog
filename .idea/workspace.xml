@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20200730_2044.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/bind_qq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/templates/comment/send_mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/comment/templates/comment/send_mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templatetags/user_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/templatetags/user_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +221,7 @@
       <workItem from="1596112068317" duration="5703000" />
       <workItem from="1596159430926" duration="713000" />
       <workItem from="1596166015016" duration="675000" />
-      <workItem from="1596283377172" duration="4858000" />
+      <workItem from="1596283377172" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1594129456472</created>
