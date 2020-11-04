@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'comment',
     'likes',
     'user',
+    'notifications',
+    'my_notifications',
 ]
 
 MIDDLEWARE = [
@@ -147,3 +149,7 @@ QQ_APP_KEY = os.environ['QQ_APP_KEY']
 QQ_REDIRECT_URL = 'http://leyilee.top/user/login_by_qq'
 QQ_STATE = 'leyilee'
 
+#django-notification-hq设置
+DJANGO_NOTIFICATIONS_CONFIG = {
+    'USE_JSONFIELD': True
+}

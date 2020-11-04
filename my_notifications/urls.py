@@ -13,24 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
+
 from django.urls import include,path
 from django.conf import settings
 from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    path('',views.home,name='home'),
-    path('admin/', admin.site.urls),
-    path('ckeditor',include('ckeditor_uploader.urls')),
-    path('blog/',include('blog.urls')),
-    path('comment/', include('comment.urls')),
-    path('likes/', include('likes.urls')),
-    path('user/',include('user.urls')),
-    path('notifications/',include('notifications.urls',namespace='notifications')),
-    path('my_notifications/',include('my_notifications.urls')),
-    path('search/', views.search,name="search"),
-
+    path('',views.my_notifications,name="my_notifications"),
+    path('<int:my_notification_pk>', views.my_notification, name="my_notification"),
+    path('delete_my_read_notifications', views.delete_my_read_notifications, name="delete_my_read_notifications"),
 ]
 
 urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

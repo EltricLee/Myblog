@@ -15,4 +15,5 @@ urlpatterns = [
 	path('login_by_qq', views.login_by_qq, name="login_by_qq"), #leyilee.top/user/login_in_by_qq
 	path('bind_qq', views.bind_qq, name="bind_qq"),  # leyilee.top/user/login_in_by_qq
 	path('create_user_by_qq', views.create_user_by_qq, name="create_user_by_qq"),
+
 ]
