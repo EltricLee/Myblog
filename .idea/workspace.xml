@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09390d71-118b-450d-8bae-acc0a4b936ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comment/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likes/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_notifications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_notifications/static/my_notifications/my_notifications.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_notifications/templates/my_notifications/my_notifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_notifications/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_notifications/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/likes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/likes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/likes/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/likes/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bootstrap-3.3.7/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bootstrap-3.3.7/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jquery.min-1.12.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/jquery.min-1.12.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,6 +242,7 @@
       <workItem from="1604021344624" duration="4751000" />
       <workItem from="1604281044908" duration="5845000" />
       <workItem from="1604367448803" duration="8824000" />
+      <workItem from="1604484810263" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1594129456472</created>
